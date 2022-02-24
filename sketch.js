@@ -40,7 +40,6 @@ function setup(){
   trex.addAnimation('running',trex_running);
   trex.scale = 0.75;
   trex.addAnimation('collided', trex_collided);
-  trex.debug = true;
   // trex.setCollider('rectangle',0,0,300,80);
   trex.setCollider('circle',0,0,40);
 
